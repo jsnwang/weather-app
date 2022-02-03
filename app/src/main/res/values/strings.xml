@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Weather App</string>
+    <string name="dallas_tx">Dallas, TX</string>
+    <string name="date">Mon 4/21/18 11:58 PM</string>
+    <string name="_75">75</string>
+    <string name="search">SEARCH</string>
+    <string name="city">City</string>
+    <string name="chelsea_london">Chelsea, London</string>
+    <string name="searching">Searching…</string>
+    <string name="cityDisplay">%1$s, %2$s</string>
+    <string name="close">Close</string>
+    <string name="mon">Mon</string>
+    <string name="weather_icon">weather icon</string>
+    <string name="tempDisplay">%1$s\u00B0</string>
+    <string name="_mon">Mon</string>
+    <string name="_tue">Tue</string>
+    <string name="_wed">Wed</string>
+    <string name="_thu">Thu</string>
+    <string name="_fri">Fri</string>
+    <string name="_sat">Sat</string>
+    <string name="_sun">Sun</string>
+    <string name="chelsea_england">Chelsea, England</string>
+    <string name="icon">icon</string>
+    <string name="humidity">Humidity</string>
+    <string name="wind_mph">Wind (mph)</string>
+    <string name="chance_of_rain">Chance of Rain</string>
+    <string name="temp">Temp</string>
+    <string name="time">Time</string>
+    <string name="_empty">empty</string>
+</resources>

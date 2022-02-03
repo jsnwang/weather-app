@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/search_screen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:alpha="0.90"
+        android:visibility="invisible"
+        app:constraint_referenced_ids="search_bar,exit_search_button"/>
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/search_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/exit_search_button"
+        android:inputType="text"
+        app:iconifiedByDefault="false"
+        app:queryHint="City"
+        />
+    <ImageButton
+        android:id="@+id/exit_search_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingEnd="10dp"
+        android:paddingTop="10dp"
+        android:alpha="1"
+        android:src="@drawable/ic_close"
+        android:background="@null"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:contentDescription="@string/close" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

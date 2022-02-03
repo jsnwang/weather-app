@@ -8,10 +8,12 @@
         <entry key="app/src/main/res/layout/daily_forecast.xml" value="0.22628720288202483" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.19886037487765953" />
         <entry key="app/src/main/res/layout/fragment_search.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_second.xml" value="0.12681159420289856" />
         <entry key="app/src/main/res/layout/hourly_forecast.xml" value="0.1" />
         <entry key="app/src/main/res/layout/middle_data.xml" value="0.10000293480488684" />
         <entry key="app/src/main/res/layout/search_screen.xml" value="0.12681159420289856" />
         <entry key="app/src/main/res/layout/top_data.xml" value="0.12681159420289856" />
+        <entry key="app/src/main/res/layout/view_pager.xml" value="0.12681159420289856" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.153125" />
       </map>
     </option>

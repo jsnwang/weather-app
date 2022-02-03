@@ -29,12 +29,17 @@ import java.time.format.FormatStyle
 import java.util.*
 import kotlin.math.roundToInt
 import androidx.appcompat.widget.SearchView
+import com.example.weatherapp.adapter.PagerAdapter
+import com.example.weatherapp.databinding.ViewPagerBinding
 
 class HomeFragment : Fragment() {
     private var _binding : FragmentHomeBinding? = null
     private val binding get() = _binding!!
     private val viewModel by viewModels<WeatherViewModel>()
-
+//
+//    private var _viewPagerBinding : ViewPagerBinding ?= null
+//    private val viewPagerBinding get() = _viewPagerBinding!!
+    private lateinit var pagerAdapter : PagerAdapter
     @RequiresApi(Build.VERSION_CODES.O)
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -43,6 +48,8 @@ class HomeFragment : Fragment() {
     ): View {
         super.onCreateView(inflater, container, savedInstanceState)
         _binding = FragmentHomeBinding.inflate(inflater, container, false)
+//        _viewPagerBinding = ViewPagerBinding.inflate(inflater,container,false)
+//        pagerAdapter = PagerAdapter(this)
         initViews()
         initObservers()
         return binding.root
